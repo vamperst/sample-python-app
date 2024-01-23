@@ -3,7 +3,7 @@ version: '3'
 services:
   # - - - - - #
   hello_py:
-    image: local/hello-python:latest
+    image: local/hello-python
     build:
       context: .
       dockerfile: Dockerfile
